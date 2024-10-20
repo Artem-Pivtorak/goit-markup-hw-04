@@ -1,0 +1,311 @@
+/* Основні стилі для body */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+/* Скидання стандартних стилів для списків та елементів */
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Загальні стилі для header */
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo {
+    color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-part-header {
+    color: #2e2f42;
+}
+
+.logo-part {
+    color: #f4f4fd;
+}
+
+/* Навігація */
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
+/* Контакти */
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-link {
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Зображення */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Перша секція */
+.first-section {
+    padding: 188px 0;
+    background-color: #2e2f42;
+}
+
+.section-title-main {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.order-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+/* Друга секція (Features) */
+.features-section {
+    padding: 120px 0;
+    background-color: #fff;
+}
+
+.features-section .container {
+    position: relative;
+}
+
+.features-section ul {
+    display: flex;
+    gap: 24px;
+}
+
+.features-section li {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.features-section li h3 {
+    margin-bottom: 8px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Третя секція (Team) */
+.team-section {
+    padding: 120px 0;
+    background-color: #F4F4FD;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-section ul {
+    display: flex;
+    gap: 24px;
+}
+
+/* Оформлення для кожного контейнера працівника */
+.team-info {
+    padding: 32px 0;
+}
+
+/* Оформлення заголовка (ім'я працівника) */
+.team-name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Оформлення параграфа (посада) */
+.team-role {
+    text-align: center;
+    font-size: 14px;
+    color: #434455;
+}
+
+/* Четверта секція (Portfolio) */
+.additional-section {
+    padding: 120px 0;
+}
+
+.additional-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.additional-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    gap: 48px 24px;
+}
+
+.app-item {
+    flex-basis: calc((100% - 2* 24px) / 3);
+}
+
+.app-item:nth-child(4),
+.app-item:nth-child(5),
+.app-item:nth-child(6) {
+    margin-bottom: 0;
+}
+
+.app-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.app-title {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+.page-footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-container {
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
+.footer-logo-text {
+    max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.team-item {
+border-radius: 0px 0px 4px 4px;
+}
+
