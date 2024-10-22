@@ -388,19 +388,17 @@ img {
 
 .footer-text {
     font-weight: 500;
+    margin-bottom: 16px;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 16px;
 }
 
 .footer-list {
     display: flex;
     gap: 16px;
-    display: flex;
-    width: 40px;
-    height: 40px;
+    align-items: center;
     justify-content: center;
 }
 
