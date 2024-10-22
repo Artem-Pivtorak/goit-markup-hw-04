@@ -450,3 +450,12 @@ img {
 .app-item:hover .text-img {
     transform: translateY(0);
 }
+
+.footer-content {
+    display: flex; 
+    align-items: baseline;
+}
+
+.footer-text-logo {
+    margin-right: 120px;
+}
